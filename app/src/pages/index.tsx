@@ -1,3 +1,4 @@
+import AuthWrapper from '@/components/auth/AuthWrapper'
 import Head from 'next/head'
 
 export default function Home() {
@@ -9,7 +10,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>Hello world!</main>
+      <main>
+        <AuthWrapper>
+          <h1>Authenticated!</h1>
+        </AuthWrapper>
+      </main>
     </>
   )
 }
