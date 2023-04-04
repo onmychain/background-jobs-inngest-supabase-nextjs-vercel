@@ -1,0 +1,11 @@
+{
+  "name": "background-jobs-inngest-supabase-nextjs-vercel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/onmychain/background-jobs-inngest-supabase-nextjs-vercel.git",
+  "author": "Cyrille Derche <c.derche@me.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "supabase": "^1.47.2"
+  }
+}
